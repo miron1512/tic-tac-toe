@@ -16,6 +16,8 @@ module.exports = {
     path: path.resolve(__dirname, 'build')
   },
 
+  devtool: 'inline-source-map',
+
   devServer: {
     contentBase: './build',
     port: 3000,

@@ -1,0 +1,31 @@
+.game-status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .players {
+    display: flex;
+    align-items: baseline;
+
+    .player {
+      > i {
+        margin: 0 5px;
+      }
+
+      &.active {
+        border-bottom: 2px solid #8cc5e7;
+      }
+    }
+
+    .vs {
+      color: #fa6964;
+      margin: 0 10px;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+
+  .new-game:hover {
+    color: #8cc5e7;
+  }
+}
